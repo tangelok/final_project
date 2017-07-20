@@ -18,22 +18,20 @@ body {
 }
 
 
-/*Typography*/
+/* ----------------------------------------
+Typography
+------------------------------------------- */
 p {
   font-family: 'Slabo 27px', serif;
   text-transform: none;
-}
-
-h1 {
-  font-size: 75px;
-  letter-spacing: 3px;
-  text-align: center;
 }
 h2 {
   font-size: 45px;
 }
 
-/*Grid System*/
+/* ----------------------------------------
+Grid System
+------------------------------------------- */
 
 .col-2-3 {
   flex-basis: 65%;
@@ -43,42 +41,116 @@ h2 {
 }
 
 
-/*Header*/
+/* ----------------------------------------
+Header
+------------------------------------------- */
 
 nav li {
-  display: inline;
-  text-align: center;
+  display: inline-block;
+  flex-wrap: wrap;
   margin: 8px;
 }
-nav a {
+nav li a {
   text-decoration: none;
+  color: #193441;
+}
+header {
+  background-image: url('../img/holder-header.jpg');
+  background-size: cover;
+	background-attachment: fixed;
+  background-position: center;
+  padding: 70px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  z-index: 100;
+}
+nav {
+  background-color: #FCFFF5;
+
 }
 
-/*About*/
+/* ----------------------------------------
+About
+------------------------------------------- */
 .about {
   background-color: #193441;
   display: flex;
+  flex-wrap: wrap;
   padding: 30px;
   justify-content: space-between;
-  color: #91AA9D;
+  color: #D1DBBD;
+}
+.about h2 {
+  margin: 55px;
+}
+.about h3 {
+  text-align: left;
+}
+.about-text {
+  margin: 55px;
+}
+.aside {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-/*Menu*/
+/* ----------------------------------------
+Menu
+------------------------------------------- */
 .menu {
   display: flex;
+  flex-wrap: wrap;
   margin: 15px;
   justify-content: space-between;
+  color: #193441;
 }
 
 
 
-/*Other*/
+/* ----------------------------------------
+Other
+------------------------------------------- */
 
 
 
 
-/*Exclusive*/
+/* ----------------------------------------
+Exclusive
+------------------------------------------- */
+.exclusive {
+  background-color: #D1DBBD;
+  color: #193441;
+  padding: 40px;
+}
+.exclusive h2, h3, h4 {
+  text-align: center;
+}
+.exclusive h2 {
+  margin-bottom: 0;
+}
+.exclusive h3 {
+  margin-bottom: 0;
+}
+.exclusive h4 {
+  font-weight: 400;
+  margin: 0 0 50px 0;
+  font-style: italic;
+  font-size: 14px;
+}
+.exclusive p {
+  text-align: center;
+  margin: 0 55px 30px 55px;
+}
 
 
 
-/*Footer*/
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
