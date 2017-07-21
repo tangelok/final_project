@@ -148,11 +148,21 @@ Menu
   margin-top: 0;
   margin-bottom: 0;
 }
-.dinner-header {
+.management{
   margin-top: 0;
   font-size: 12px;
 }
-
+#lunch {
+  border: 5px solid #703030;
+  font-size: 18px;
+}
+#dinner {
+  border: 5px solid #703030;
+}
+#tiki {
+  border: 5px solid #703030;
+  font-size: 18px;
+}
 
 
 /* ----------------------------------------
@@ -202,5 +212,10 @@ Footer
 
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 100px;
+}
+
+.copyright {
+  margin-top: 30px;
+  margin-bottom: 0;
 }
