@@ -154,6 +154,18 @@ About
 .about h2 p {
   margin-left: 50px;
 }
+.about button {
+  text-align: center;
+  margin-left: 220px;
+  font-size: 22px;
+  color: #D1DBBD;
+  background-color: #8E2800;
+  padding: 10px;
+}
+.about button:hover {
+  color: #193441;
+  background-color: #D1DBBD;
+}
 
 /* ----------------------------------------
 Menu
@@ -165,6 +177,7 @@ Menu
   justify-content: space-between;
   color: #193441;
   text-align: center;
+  background-color: #FCFFF5;
 }
 .sandwich {
   font-size:12px;
@@ -185,13 +198,22 @@ Menu
 #lunch {
   border: 5px solid #8E2800;
   font-size: 18px;
+  width: 200px;
+  height: 600px;
+  overflow: scroll;
 }
 #dinner {
   border: 5px solid #8E2800;
+  width: 200px;
+  height: 600px;
+  overflow: scroll;
 }
 #tiki {
   border: 5px solid #8E2800;
   font-size: 18px;
+  width: 200px;
+  height: 600px;
+  overflow: scroll;
 }
 
 
@@ -249,6 +271,7 @@ Footer
 
 footer {
   text-align: center;
+  background-color: #FCFFF5;
 }
 .copyright {
   margin-top: 70px;
