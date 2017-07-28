@@ -1,0 +1,31 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+/* ----------------------------------------
+Menu
+------------------------------------------- */
+#menu {
+  background-color: #193441;
+  color: #D1DBBD;
+}
+#menu h2, h3, p, h4 {
+  color: #D1DBBD;
+}
+
+/* ----------------------------------------
+Grid System
+------------------------------------------- */
+col-1 {
+  flex-basis: 98%;
+}

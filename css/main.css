@@ -215,6 +215,14 @@ Menu
   height: 600px;
   overflow: scroll;
 }
+#menu p a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #193441;
+
+}
 
 
 /* ----------------------------------------
