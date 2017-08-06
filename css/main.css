@@ -269,7 +269,7 @@ Menu
   margin-bottom: 0px;
 }
 #scroll {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 0px;
 }
 
@@ -370,7 +370,23 @@ About Ming
 #aboutming img {
   margin-bottom: 50px;
 }
+#about-exclusive h4 {
+  margin-bottom: 10px;
+  text-transform: none;
 
+}
+  )
+
+/* ----------------------------------------
+Blue Ginger
+------------------------------------------- */
+#image-edit {
+  width: 356px;
+}
+#ginger-header {
+  font-size: 20px;
+  font-weight: 700;
+}
 
 /* ----------------------------------------
 Media Queries
