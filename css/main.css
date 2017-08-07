@@ -380,12 +380,12 @@ About Ming
 /* ----------------------------------------
 Blue Ginger
 ------------------------------------------- */
-#image-edit {
-  width: 356px;
-}
 #ginger-header {
   font-size: 20px;
   font-weight: 700;
+}
+#image-edit {
+  margin-top: 70px;
 }
 
 /* ----------------------------------------
