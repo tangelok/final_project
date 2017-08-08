@@ -12,6 +12,7 @@ Main
   $('.close').on('click', function(){
     $('.sidebar').removeClass('active');
   });
+  
 /* ----------------------------------------
 About Ming
 ------------------------------------------- */
