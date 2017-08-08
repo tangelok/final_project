@@ -373,6 +373,7 @@ About Ming
 ------------------------------------------- */
 #aboutming h2 {
   text-align: center;
+  letter-spacing: 7px;
 }
 #aboutming .about-text {
   text-align: center;
@@ -426,6 +427,21 @@ Gallery
   padding: 20px;
 }
 
+/* ----------------------------------------
+Directions
+------------------------------------------- */
+.directions-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #193441;
+  padding: 50px 25px 50px 25px;
+  color: #D1DBBD;
+}
+#driving-directions {
+  margin-left: 15px;
+  margin-right: 5px;
+}
 /* ----------------------------------------
 Media Queries
 ------------------------------------------- */
